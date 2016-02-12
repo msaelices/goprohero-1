@@ -17,10 +17,6 @@ uses-sdk
 ADDED from AndroidManifest.xml:7:5
 MERGED from com.android.support:cardview-v7:21.0.3:15:5
 MERGED from com.android.support:support-v4:22.0.0:20:5
-MERGED from com.google.android.support:wearable:1.1.0:6:5
-MERGED from com.android.support:support-v4:22.0.0:20:5
-MERGED from com.android.support:recyclerview-v7:21.0.0:15:5
-MERGED from com.android.support:support-v4:22.0.0:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
 		INJECTED from AndroidManifest.xml:0:0
@@ -95,285 +91,271 @@ ADDED from AndroidManifest.xml:32:5
 		ADDED from AndroidManifest.xml:34:9
 	android:name
 		ADDED from AndroidManifest.xml:33:9
-uses-feature#android.hardware.type.watch
+uses-permission#com.google.android.permission.PROVIDE_BACKGROUND
 ADDED from AndroidManifest.xml:36:5
 	android:name
-		ADDED from AndroidManifest.xml:36:19
-uses-permission#com.google.android.permission.PROVIDE_BACKGROUND
+		ADDED from AndroidManifest.xml:36:22
+uses-permission#android.permission.WAKE_LOCK
 ADDED from AndroidManifest.xml:37:5
 	android:name
 		ADDED from AndroidManifest.xml:37:22
-uses-permission#android.permission.WAKE_LOCK
+uses-permission#android.permission.CAMERA
 ADDED from AndroidManifest.xml:38:5
 	android:name
 		ADDED from AndroidManifest.xml:38:22
-uses-permission#android.permission.CAMERA
-ADDED from AndroidManifest.xml:39:5
-	android:name
-		ADDED from AndroidManifest.xml:39:22
 uses-feature#android.hardware.camera
-ADDED from AndroidManifest.xml:41:5
+ADDED from AndroidManifest.xml:40:5
 	android:name
-		ADDED from AndroidManifest.xml:41:19
+		ADDED from AndroidManifest.xml:40:19
 uses-permission#android.permission.FLASHLIGHT
-ADDED from AndroidManifest.xml:43:5
+ADDED from AndroidManifest.xml:42:5
 	android:name
-		ADDED from AndroidManifest.xml:43:22
+		ADDED from AndroidManifest.xml:42:22
 uses-feature#android.hardware.camera.flash
-ADDED from AndroidManifest.xml:45:5
+ADDED from AndroidManifest.xml:44:5
 	android:name
-		ADDED from AndroidManifest.xml:45:19
+		ADDED from AndroidManifest.xml:44:19
 application
-ADDED from AndroidManifest.xml:49:5
+ADDED from AndroidManifest.xml:48:5
 MERGED from com.android.support:cardview-v7:21.0.3:16:5
 MERGED from com.android.support:support-v4:22.0.0:22:5
-MERGED from com.google.android.support:wearable:1.1.0:10:5
-MERGED from com.android.support:support-v4:22.0.0:22:5
-MERGED from com.android.support:recyclerview-v7:21.0.0:17:5
-MERGED from com.android.support:support-v4:22.0.0:22:5
 	android:label
-		ADDED from AndroidManifest.xml:52:9
-	android:allowBackup
-		ADDED from AndroidManifest.xml:50:9
-	android:icon
 		ADDED from AndroidManifest.xml:51:9
-	android:theme
-		ADDED from AndroidManifest.xml:53:9
-meta-data#com.google.android.gms.car.notification.SmallIcon
-ADDED from AndroidManifest.xml:54:9
-	android:resource
-		ADDED from AndroidManifest.xml:56:13
-	android:name
-		ADDED from AndroidManifest.xml:55:13
-meta-data#com.google.android.gms.car.application
-ADDED from AndroidManifest.xml:57:9
-	android:resource
-		ADDED from AndroidManifest.xml:59:13
-	android:name
-		ADDED from AndroidManifest.xml:58:13
-activity#com.chernowii.hero4.MainActivity
-ADDED from AndroidManifest.xml:68:9
-	android:label
-		ADDED from AndroidManifest.xml:71:13
+	android:allowBackup
+		ADDED from AndroidManifest.xml:49:9
 	android:icon
-		ADDED from AndroidManifest.xml:70:13
-	android:name
-		ADDED from AndroidManifest.xml:69:13
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:72:13
-action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:73:17
-	android:name
-		ADDED from AndroidManifest.xml:73:25
-category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:75:17
-	android:name
-		ADDED from AndroidManifest.xml:75:27
-activity#com.chernowii.hero4.WearControls
-ADDED from AndroidManifest.xml:78:9
+		ADDED from AndroidManifest.xml:50:9
 	android:theme
-		ADDED from AndroidManifest.xml:83:13
-	android:exported
-		ADDED from AndroidManifest.xml:81:13
-	android:allowEmbedded
-		ADDED from AndroidManifest.xml:80:13
-	android:taskAffinity
-		ADDED from AndroidManifest.xml:82:13
-	android:name
-		ADDED from AndroidManifest.xml:79:13
-receiver#com.chernowii.hero4.MyPostNotificationReceiver
-ADDED from AndroidManifest.xml:86:9
-	android:exported
-		ADDED from AndroidManifest.xml:88:13
-	android:name
-		ADDED from AndroidManifest.xml:87:13
-intent-filter#com.chernowii.hero4.SHOW_NOTIFICATION
-ADDED from AndroidManifest.xml:89:13
-action#com.chernowii.hero4.SHOW_NOTIFICATION
-ADDED from AndroidManifest.xml:90:17
-	android:name
-		ADDED from AndroidManifest.xml:90:25
-activity#com.chernowii.hero4.MyDisplayActivity
-ADDED from AndroidManifest.xml:94:9
-	android:theme
-		ADDED from AndroidManifest.xml:99:13
-	android:exported
-		ADDED from AndroidManifest.xml:97:13
-	android:allowEmbedded
-		ADDED from AndroidManifest.xml:96:13
-	android:taskAffinity
-		ADDED from AndroidManifest.xml:98:13
-	android:name
-		ADDED from AndroidManifest.xml:95:13
-receiver#com.chernowii.hero4.MyPostNotificationReceiver2
-ADDED from AndroidManifest.xml:102:9
-	android:exported
-		ADDED from AndroidManifest.xml:104:13
-	android:name
-		ADDED from AndroidManifest.xml:103:13
-activity#com.chernowii.hero4.ProtuneControls
-ADDED from AndroidManifest.xml:110:9
-	android:label
-		ADDED from AndroidManifest.xml:112:13
-	android:name
-		ADDED from AndroidManifest.xml:111:13
-activity#com.chernowii.hero4.LiveStuff
-ADDED from AndroidManifest.xml:114:9
-	android:label
-		ADDED from AndroidManifest.xml:116:13
-	android:name
-		ADDED from AndroidManifest.xml:115:13
-activity#com.chernowii.hero4.LiveStuffH4
-ADDED from AndroidManifest.xml:118:9
-	android:label
-		ADDED from AndroidManifest.xml:120:13
-	android:name
-		ADDED from AndroidManifest.xml:119:13
-activity#com.chernowii.hero4.WelcomeScreen
-ADDED from AndroidManifest.xml:122:9
-	android:label
-		ADDED from AndroidManifest.xml:124:13
-	android:name
-		ADDED from AndroidManifest.xml:123:13
-activity#com.chernowii.hero4.HDR
-ADDED from AndroidManifest.xml:126:9
-	android:label
-		ADDED from AndroidManifest.xml:128:13
-	android:name
-		ADDED from AndroidManifest.xml:127:13
-receiver#com.chernowii.hero4.GoProWidget
-ADDED from AndroidManifest.xml:131:9
-	android:name
-		ADDED from AndroidManifest.xml:131:19
-intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:132:13
-action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:133:17
-	android:name
-		ADDED from AndroidManifest.xml:133:25
-meta-data#android.appwidget.provider
-ADDED from AndroidManifest.xml:136:13
+		ADDED from AndroidManifest.xml:52:9
+meta-data#com.google.android.gms.car.notification.SmallIcon
+ADDED from AndroidManifest.xml:53:9
 	android:resource
-		ADDED from AndroidManifest.xml:138:17
+		ADDED from AndroidManifest.xml:55:13
 	android:name
+		ADDED from AndroidManifest.xml:54:13
+meta-data#com.google.android.gms.car.application
+ADDED from AndroidManifest.xml:56:9
+	android:resource
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+activity#com.chernowii.hero4.MainActivity
+ADDED from AndroidManifest.xml:67:9
+	android:label
+		ADDED from AndroidManifest.xml:70:13
+	android:icon
+		ADDED from AndroidManifest.xml:69:13
+	android:name
+		ADDED from AndroidManifest.xml:68:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:71:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:72:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:74:17
+	android:name
+		ADDED from AndroidManifest.xml:74:27
+activity#com.chernowii.hero4.WearControls
+ADDED from AndroidManifest.xml:77:9
+	android:theme
+		ADDED from AndroidManifest.xml:82:13
+	android:exported
+		ADDED from AndroidManifest.xml:80:13
+	android:allowEmbedded
+		ADDED from AndroidManifest.xml:79:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+receiver#com.chernowii.hero4.MyPostNotificationReceiver
+ADDED from AndroidManifest.xml:85:9
+	android:exported
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+intent-filter#com.chernowii.hero4.SHOW_NOTIFICATION
+ADDED from AndroidManifest.xml:88:13
+action#com.chernowii.hero4.SHOW_NOTIFICATION
+ADDED from AndroidManifest.xml:89:17
+	android:name
+		ADDED from AndroidManifest.xml:89:25
+activity#com.chernowii.hero4.MyDisplayActivity
+ADDED from AndroidManifest.xml:93:9
+	android:theme
+		ADDED from AndroidManifest.xml:98:13
+	android:exported
+		ADDED from AndroidManifest.xml:96:13
+	android:allowEmbedded
+		ADDED from AndroidManifest.xml:95:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:94:13
+receiver#com.chernowii.hero4.MyPostNotificationReceiver2
+ADDED from AndroidManifest.xml:101:9
+	android:exported
+		ADDED from AndroidManifest.xml:103:13
+	android:name
+		ADDED from AndroidManifest.xml:102:13
+activity#com.chernowii.hero4.ProtuneControls
+ADDED from AndroidManifest.xml:109:9
+	android:label
+		ADDED from AndroidManifest.xml:111:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.chernowii.hero4.LiveStuff
+ADDED from AndroidManifest.xml:113:9
+	android:label
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:114:13
+activity#com.chernowii.hero4.LiveStuffH4
+ADDED from AndroidManifest.xml:117:9
+	android:label
+		ADDED from AndroidManifest.xml:119:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+activity#com.chernowii.hero4.WelcomeScreen
+ADDED from AndroidManifest.xml:121:9
+	android:label
+		ADDED from AndroidManifest.xml:123:13
+	android:name
+		ADDED from AndroidManifest.xml:122:13
+activity#com.chernowii.hero4.HDR
+ADDED from AndroidManifest.xml:125:9
+	android:label
+		ADDED from AndroidManifest.xml:127:13
+	android:name
+		ADDED from AndroidManifest.xml:126:13
+receiver#com.chernowii.hero4.GoProWidget
+ADDED from AndroidManifest.xml:130:9
+	android:name
+		ADDED from AndroidManifest.xml:130:19
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:131:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:132:17
+	android:name
+		ADDED from AndroidManifest.xml:132:25
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:135:13
+	android:resource
 		ADDED from AndroidManifest.xml:137:17
+	android:name
+		ADDED from AndroidManifest.xml:136:17
 activity#com.chernowii.hero4.MediaBrowser
-ADDED from AndroidManifest.xml:141:9
+ADDED from AndroidManifest.xml:140:9
 	android:label
-		ADDED from AndroidManifest.xml:143:13
-	android:name
 		ADDED from AndroidManifest.xml:142:13
+	android:name
+		ADDED from AndroidManifest.xml:141:13
 activity#com.chernowii.hero4.TriggerActivity
-ADDED from AndroidManifest.xml:145:9
+ADDED from AndroidManifest.xml:144:9
 	android:label
-		ADDED from AndroidManifest.xml:147:13
-	android:name
 		ADDED from AndroidManifest.xml:146:13
+	android:name
+		ADDED from AndroidManifest.xml:145:13
 activity#com.chernowii.hero4.TagActivity
-ADDED from AndroidManifest.xml:149:9
+ADDED from AndroidManifest.xml:148:9
 	android:label
-		ADDED from AndroidManifest.xml:151:13
-	android:name
 		ADDED from AndroidManifest.xml:150:13
+	android:name
+		ADDED from AndroidManifest.xml:149:13
 activity#com.chernowii.hero4.StopActivity
-ADDED from AndroidManifest.xml:153:9
+ADDED from AndroidManifest.xml:152:9
 	android:label
-		ADDED from AndroidManifest.xml:155:13
-	android:name
 		ADDED from AndroidManifest.xml:154:13
+	android:name
+		ADDED from AndroidManifest.xml:153:13
 activity#com.chernowii.hero4.VideoActivity
-ADDED from AndroidManifest.xml:157:9
+ADDED from AndroidManifest.xml:156:9
 	android:label
-		ADDED from AndroidManifest.xml:159:13
-	android:name
 		ADDED from AndroidManifest.xml:158:13
+	android:name
+		ADDED from AndroidManifest.xml:157:13
 activity#com.chernowii.hero4.PhotoActivity
-ADDED from AndroidManifest.xml:161:9
+ADDED from AndroidManifest.xml:160:9
 	android:label
-		ADDED from AndroidManifest.xml:163:13
-	android:name
 		ADDED from AndroidManifest.xml:162:13
+	android:name
+		ADDED from AndroidManifest.xml:161:13
 activity#com.chernowii.hero4.MSActivity
-ADDED from AndroidManifest.xml:165:9
+ADDED from AndroidManifest.xml:164:9
 	android:label
-		ADDED from AndroidManifest.xml:167:13
-	android:name
 		ADDED from AndroidManifest.xml:166:13
+	android:name
+		ADDED from AndroidManifest.xml:165:13
 activity#com.chernowii.hero4.Calculator
-ADDED from AndroidManifest.xml:169:9
+ADDED from AndroidManifest.xml:168:9
 	android:label
-		ADDED from AndroidManifest.xml:171:13
-	android:name
 		ADDED from AndroidManifest.xml:170:13
+	android:name
+		ADDED from AndroidManifest.xml:169:13
 activity#com.chernowii.hero4.ProfileConfig
-ADDED from AndroidManifest.xml:173:9
+ADDED from AndroidManifest.xml:172:9
 	android:label
-		ADDED from AndroidManifest.xml:175:13
-	android:name
 		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13
 activity#com.chernowii.hero4.OldCamActivity
-ADDED from AndroidManifest.xml:177:9
+ADDED from AndroidManifest.xml:176:9
 	android:label
-		ADDED from AndroidManifest.xml:179:13
-	android:name
 		ADDED from AndroidManifest.xml:178:13
+	android:name
+		ADDED from AndroidManifest.xml:177:13
 activity#com.chernowii.hero4.OCTrigger
-ADDED from AndroidManifest.xml:181:9
+ADDED from AndroidManifest.xml:180:9
 	android:label
-		ADDED from AndroidManifest.xml:183:13
-	android:name
 		ADDED from AndroidManifest.xml:182:13
+	android:name
+		ADDED from AndroidManifest.xml:181:13
 activity#com.chernowii.hero4.OCTurnOff
-ADDED from AndroidManifest.xml:185:9
+ADDED from AndroidManifest.xml:184:9
 	android:label
-		ADDED from AndroidManifest.xml:187:13
-	android:name
 		ADDED from AndroidManifest.xml:186:13
+	android:name
+		ADDED from AndroidManifest.xml:185:13
 activity#com.chernowii.hero4.OCTurnOn
-ADDED from AndroidManifest.xml:189:9
+ADDED from AndroidManifest.xml:188:9
 	android:label
-		ADDED from AndroidManifest.xml:191:13
-	android:name
 		ADDED from AndroidManifest.xml:190:13
+	android:name
+		ADDED from AndroidManifest.xml:189:13
 activity#com.chernowii.hero4.OCStop
-ADDED from AndroidManifest.xml:193:9
+ADDED from AndroidManifest.xml:192:9
 	android:label
-		ADDED from AndroidManifest.xml:195:13
-	android:name
 		ADDED from AndroidManifest.xml:194:13
+	android:name
+		ADDED from AndroidManifest.xml:193:13
 activity#com.chernowii.hero4.OCVideo
-ADDED from AndroidManifest.xml:197:9
+ADDED from AndroidManifest.xml:196:9
 	android:label
-		ADDED from AndroidManifest.xml:199:13
-	android:name
 		ADDED from AndroidManifest.xml:198:13
+	android:name
+		ADDED from AndroidManifest.xml:197:13
 activity#com.chernowii.hero4.OCPhoto
-ADDED from AndroidManifest.xml:201:9
+ADDED from AndroidManifest.xml:200:9
 	android:label
-		ADDED from AndroidManifest.xml:203:13
-	android:name
 		ADDED from AndroidManifest.xml:202:13
+	android:name
+		ADDED from AndroidManifest.xml:201:13
 activity#com.chernowii.hero4.OCBurst
-ADDED from AndroidManifest.xml:205:9
+ADDED from AndroidManifest.xml:204:9
 	android:label
-		ADDED from AndroidManifest.xml:207:13
-	android:name
 		ADDED from AndroidManifest.xml:206:13
+	android:name
+		ADDED from AndroidManifest.xml:205:13
 activity#com.chernowii.hero4.OCTimelapse
-ADDED from AndroidManifest.xml:209:9
+ADDED from AndroidManifest.xml:208:9
 	android:label
-		ADDED from AndroidManifest.xml:211:13
-	android:name
 		ADDED from AndroidManifest.xml:210:13
+	android:name
+		ADDED from AndroidManifest.xml:209:13
 activity#com.chernowii.hero4.OCProtuneControls
-ADDED from AndroidManifest.xml:213:9
+ADDED from AndroidManifest.xml:212:9
 	android:label
-		ADDED from AndroidManifest.xml:215:13
-	android:name
 		ADDED from AndroidManifest.xml:214:13
-activity#android.support.v7.widget.TestActivity
-ADDED from com.android.support:recyclerview-v7:21.0.0:18:9
-	android:label
-		ADDED from com.android.support:recyclerview-v7:21.0.0:18:19
 	android:name
-		ADDED from com.android.support:recyclerview-v7:21.0.0:18:60
+		ADDED from AndroidManifest.xml:213:13

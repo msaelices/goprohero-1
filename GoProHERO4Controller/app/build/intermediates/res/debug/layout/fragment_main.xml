@@ -85,4 +85,4 @@
         android:layout_toRightOf="@+id/Button03"
         android:text="@string/photo" />
 
-</RelativeLayout><!-- From: file:/home/konrad2/AndroidstudioProjects/GoProHERO4Controller/app/src/main/res/layout/fragment_main.xml -->
+</RelativeLayout><!-- From: file:/home/msaelices/src/streamingapp-proofs/goprohero-1/GoProHERO4Controller/app/src/main/res/layout/fragment_main.xml -->

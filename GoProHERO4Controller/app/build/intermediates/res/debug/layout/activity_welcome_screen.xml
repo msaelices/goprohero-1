@@ -38,4 +38,4 @@
         android:layout_alignParentStart="true"
         android:layout_alignEnd="@+id/textView8" />
 </RelativeLayout>
-<!-- From: file:/home/konrad2/AndroidstudioProjects/GoProHERO4Controller/app/src/main/res/layout/activity_welcome_screen.xml -->
+<!-- From: file:/home/msaelices/src/streamingapp-proofs/goprohero-1/GoProHERO4Controller/app/src/main/res/layout/activity_welcome_screen.xml -->

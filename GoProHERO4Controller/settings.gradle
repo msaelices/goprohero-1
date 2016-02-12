@@ -1,1 +1,1 @@
-include ':app', ':goproherowear'
+include ':app'

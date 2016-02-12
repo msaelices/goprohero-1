@@ -64,4 +64,4 @@
         android:layout_alignEnd="@+id/button16"
         android:layout_alignStart="@+id/button18" />
 
-</RelativeLayout><!-- From: file:/home/konrad2/AndroidstudioProjects/GoProHERO4Controller/app/src/main/res/layout/go_pro_widget.xml -->
+</RelativeLayout><!-- From: file:/home/msaelices/src/streamingapp-proofs/goprohero-1/GoProHERO4Controller/app/src/main/res/layout/go_pro_widget.xml -->

@@ -3,4 +3,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/home/konrad2/AndroidstudioProjects/GoProHERO4Controller/app/src/main/res/menu/menu_m.xml -->
+<!-- From: file:/home/msaelices/src/streamingapp-proofs/goprohero-1/GoProHERO4Controller/app/src/main/res/menu/menu_m.xml -->
